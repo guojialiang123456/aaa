@@ -1,0 +1,450 @@
+html, body, h1, h2, h3, h4, h5, h6, p, pre, ol, ul, li, form, input, textarea {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+
+body {
+    font: 16px "Microsoft YaHei UI", sans-serif;
+    color: #333333;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/*默认样式    */
+
+.nav{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 79px;
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.navContent {
+    width: 1140px;
+    height: 100%; /*父元素100%*/
+    /*background: red;*/
+    margin: 0 auto;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-top: 14px;
+    /*background: blue;*/
+}
+
+.navList {
+    width: 602px;
+    height: 100%;
+    float: right;
+    /*background: antiquewhite;*/
+}
+.navList li{
+    float: left;
+    width: 86px;
+    height: 100%;
+    /*background: blue;*/
+}
+.navList li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 79px;
+    font-size: 14px;
+    /*过渡效果 --  颜色 速度  时间  延迟*/
+    transition: color linear .5s;
+}
+.navList li a:hover{
+    color: #16b0bc;
+}
+/*行内元素a不具备宽高属性*/
+.logo a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.logo a img{
+    width: 100%;
+    height: 100%;
+}
+/*nav*/
+.banner {
+    width: 100%;
+    height: 720px;
+    background: #A95949;
+    position: relative;
+}
+.banner ul li a img{
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+.four{
+    width: 100%;
+    height: 625px;
+    background: white;
+    padding: 70px 0;
+}
+.fourContent{
+    width: 1140px;
+    height: 625px;
+
+    /*background: aqua;*/
+    margin: 0px auto;
+    padding: 0 15px;
+}
+.fourContent .title{
+    width: 100%;
+    height: 100px;
+    font-size: 28px;
+    text-align: center;
+    /*background: red;*/
+    line-height: 100px;
+    /*margin-top: 30px;*/
+    font-weight: 300;
+    margin-bottom: 11px;
+
+    color: black;
+
+}
+.fourContent .content{
+    width: 100%;
+    height: 300px;
+    margin: 30px auto;
+    /*background: #A95949;*/
+    /*padding: 0px 15px;*/
+}
+p.fourOne{
+    width: 100%;
+    height: 30px;
+    /*background: blue;*/
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 11px;
+}
+p.kongbai{
+    width: 100%;
+    height: 30px;
+    /*background: blue;*/
+    text-align: center;
+    line-height: 30px;
+
+}
+div.img{
+    width: 1080px;
+    height: 183px;
+    /*background: green;*/
+    padding: 30px;
+    margin: 10px auto;
+    text-align: center;
+}
+.fourContent .img img{
+    /*display: block;*/
+    width: 330px;
+    height: 100%;
+
+}
+p.normal{
+    width: 100%;
+    height: 30px;
+    /*background: #A95949;*/
+    text-align: center;
+    line-height: 30px;
+    color: #222;
+}
+/*.fourContent .content p{*/
+    /*line-height: 1.8;*/
+
+    /*font-size: 18px;*/
+    /*text-align: center;*/
+
+/*}*/
+/*.fourContent .fourImg{*/
+    /*display: block;*/
+    /*width: 530px;*/
+    /*height: 340px;*/
+    /*margin: 0px auto;*/
+/*}*/
+/*.fourContent .content .marginBottom{*/
+    /*margin-bottom: 16px;*/
+
+/*}*/
+/*four*/
+.three{
+   width: 100%;
+    height: 590px;
+    padding: 70px 0;
+    /*background: #76838f;*/
+}
+.threeContent{
+    width: 1140px;
+    height: 100%;
+    padding: 0 15px;
+    margin: 0 4px;
+    /*background: aqua;*/
+    margin: 0 auto;
+}
+.threeContent .threeTop{
+    width: 100%;
+    height: 50px;
+    /*background: red;*/
+    margin-bottom: 11px;
+    font-size: 36px;
+    text-align: center;
+}
+.threeContent .threeP{
+    width: 100%;
+    height: 24px;
+    font-size: 16px;
+    /*background: green;*/
+    text-align: center;
+}
+.threeContent .swaper{
+    width:100%;
+    height: 455px;
+    /*background:blue ;*/
+    margin-top: 50px;
+}
+.swaper .swaperLeft,.swaper .swaperRight{
+    float: left;
+    width: 50px;
+    height: 100%;
+    /*background: aquamarine;*/
+    text-align: center;
+    line-height: 455px;
+}
+.swaper .swaperLeft img,.swaper .swaperRight img{
+
+    width: 30px;
+    height: 30px;
+
+    border-radius: 15px;
+
+}
+.swaper .swaperMiddle{
+    float: left;
+    width: 1032px;
+    height: 100%;
+    /*background: whitesmoke;*/
+    overflow: hidden;
+}
+.swaperMiddle .swaperSilde{
+    width: 1416px;
+    height: 100%;
+    /*background: aqua;*/
+}
+.swaperSilde .slide img{
+    margin: 0px 20px;
+    width: 284px;
+    height: 284px;
+    border-radius: 142px;
+}
+.swaperSilde .slide h2{
+
+    text-align: center;
+    margin: 11px 0;
+    font-size: 18px;
+}
+.swaperSilde .slide p{
+    width: 284px;
+    height: 60px;
+    /*background: #16b0bc;*/
+    /*margin: 0 auto;*/
+    margin: 0 20px 11px;
+
+}
+div.slideButton{
+    width: 250px;
+    height:36px ;
+    margin: 0 auto;
+    background: red;
+    padding: 6px 15px;
+    border: 1px solid red;
+    text-align: center;
+    line-height: 36px;
+}
+div.slide{
+    float: left;
+    width: 324px;
+    height: 100%;
+    margin-right: 30px;
+    /*background: coral;*/
+}
+/*three*/
+.flower{
+    width: 100%;
+    height: 750px;
+    background: #f5f5f5;
+}
+.flowerContent{
+    width: 1170px;
+    height: 610px;
+    margin: 0 auto;
+    padding: 70px 0;
+    /*background: #16b0bc;*/
+}
+.flowerContent h1{
+    height: 50px;
+    text-align: center;
+    font-weight: 200;
+}
+.flowerList{
+    width: 100%;
+    height: 560px;
+
+}
+.flowerList .flowerItem{
+    width: 570px;
+    height: 110px;
+    margin-top: 30px;
+    margin-right: 30px;
+    float: left;
+    /*background: cadetblue;*/
+}
+/*同辈选择器   odd-单数   even-偶数*/
+.flowerList .flowerItem:nth-of-type(even){
+    margin-right: 0;
+}
+.flowerItem .itemThumb{
+    width: 160px;
+    height: 96px;
+    margin-right: 20px;
+    /*margin-bottom: 14px;*/
+    /*background: red;*/
+    float: left;
+}
+.itemThumb a,.itemThumb a img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.flowerItem .itemInfo{
+    width: 390px;
+    height: 100%;
+    /*background: green;*/
+    float: left;
+    font-size: 14px;
+    color: #76838f;
+}
+
+.itemInfo h2 a{
+    display: block;
+    white-space: nowrap;/*禁止自动换行*/
+    overflow: hidden;/* 单行文本超出隐藏*/
+    text-overflow: ellipsis;/*文本超出后省略号显示*/
+    font-weight: 400;
+    font-size: 18px;
+    transition: all ease .5s;
+}
+.itemInfo h2 a:hover{
+    color: aqua;
+
+}
+.itemInfo p.infoDes{
+    padding: 10px 0;
+    height: 2.8em;
+    overflow: hidden;
+
+    position: relative;
+}
+.itemInfo p.infoDes::after{
+    content: '...';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+/*flower*/
+
+
+.footer{
+    width: 100%;
+    height: 161px;
+    padding-bottom: 20px;
+    border-top: 1px solid #f0f2f5;
+    background: #f5f5f5;
+}
+.footerOne{
+    width: 100%;
+    height: 0px;
+    padding: 10px 0;
+    background: #fff;
+    box-sizing: border-box;
+}
+.footerTwo{
+    width: 100%;
+    height: 36px;
+    padding: 5px 0;
+    margin-top: 10px;
+    /*background: #A95949;*/
+    float: left;
+    text-align: center;
+    line-height: 46px;
+}
+
+.footerTwo a,.footerTwo a img{
+   display: inline-block;
+    width: 26px;
+    height: 26px;
+    /*background: #222222;*/
+    margin: 0 8px;
+}
+.footerThree{
+    display: inline-block;
+    width: 100%;
+    height: 75%;
+    overflow: hidden;
+
+
+    /*background: green;*/
+}
+.footer .footerThree,.footer .footerFour,.footer .footerFive{
+    float: left;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    /*margin: 0 0 11px;*/
+    /*background:red;*/
+    /*line-height: 25px;*/
+
+}
+.footer .footerThree  a{
+
+    font-size: 14px;
+    color: deepskyblue;
+    line-height: 25px;
+}
+.footer .footerThree .jinghui{
+
+    width: 17px;
+    height: 17px;
+    vertical-align: middle;
+
+
+}
+.footer .footerThree .jinghui img{
+    display:block;
+    width: 100%;
+    height: 100%;
+}
+.footerFour p,.footerFive p{
+    text-align: center;
+    line-height: 25px;
+}
+/*footer*/
